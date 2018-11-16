@@ -1,6 +1,8 @@
+import { exec } from 'child_process';
 import { mount, ReactWrapper, render, shallow, ShallowWrapper } from 'enzyme';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import * as renderer from 'react-test-renderer';
 import App, { calculateWinner, IGameState } from './App';
 import { Board } from './components/Board'
 import { Square } from './components/Square'
@@ -47,6 +49,11 @@ describe('App test', () => {
 
   let app: ShallowWrapper;
   let setStateSpy: jest.SpyInstance;
+
+
+  // snapshot
+  const tree = renderer.create(<App />).toJSON();
+  expect(tree).toMatchSnapshot();
 
   beforeEach(() => {
     app = shallow(<App />);

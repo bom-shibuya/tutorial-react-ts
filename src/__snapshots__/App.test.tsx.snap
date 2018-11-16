@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="game"
+>
+  <div
+    className="gema-board"
+  >
+    <div>
+      <div
+        className="border-row"
+      >
+        <button
+          className="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          onClick={[Function]}
+        />
+      </div>
+      <div
+        className="border-row"
+      >
+        <button
+          className="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          onClick={[Function]}
+        />
+      </div>
+      <div
+        className="border-row"
+      >
+        <button
+          className="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="game-info"
+  >
+    <div>
+      Next Player: X
+    </div>
+    <ol>
+      <li>
+        <button
+          onClick={[Function]}
+        >
+          Back to game start
+        </button>
+      </li>
+    </ol>
+  </div>
+</div>
+`;

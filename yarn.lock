@@ -66,6 +66,13 @@
     "@types/node" "*"
     "@types/react" "*"
 
+"@types/react-test-renderer@^16.0.3":
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/@types/react-test-renderer/-/react-test-renderer-16.0.3.tgz#cce5c983d66cc5c3582e7c2f44b274ab635a8acc"
+  integrity sha512-NWOAxVQeJxpXuNKgw83Hah0nquiw1nUexM9qY/Hk3a+XhZwgMtaa6GLA9E1TKMT75Odb3/KE/jiBO4enTuEJjQ==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^16.7.6":
   version "16.7.6"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.6.tgz#80e4bab0d0731ad3ae51f320c4b08bdca5f03040"
